@@ -1,0 +1,8 @@
+just open your terminal and go into your directory (where the HTML file lies), and start the server using one of the commands below.
+
+python -m CGIHTTPServer 8360
+python -m http.server --cgi 8360
+python3 -m http.server --cgi 8360
+This will open the port for you.
+
+Then direct your browser to http://localhost:8360/YOURFILENAME.html The default one would usually be index.html ;)
